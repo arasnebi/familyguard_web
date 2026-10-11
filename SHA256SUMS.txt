@@ -1,0 +1,19 @@
+# ============================================================
+#  FamilyGuard dagitim ozetleri
+#  Kaynak: androforge.online  ·  destek: familyguard.destek@gmail.com
+# ------------------------------------------------------------
+#  Dosya dogrulama (Windows):   Get-FileHash .\DOSYA.apk -Algorithm SHA256
+#  Dosya dogrulama (Linux/mac): sha256sum -c SHA256SUMS.txt
+#  Imza kontrolu:               apksigner verify --print-certs DOSYA.apk
+# ============================================================
+
+# --- Dosya SHA-256 (indirme butunlugu) ---
+e8336967acc97ce8e4898e695570ae343edfad552cb00703f74b421ff875fe9e  FamilyGuard_cocuk_v1.0.12_release.apk
+c8b56d4626531953707b02940ffb2377ef0bbaa8799df5870110d1906de2b2e1  FamilyGuard_ebeveyn_v1.2.0_release.apk
+e8336967acc97ce8e4898e695570ae343edfad552cb00703f74b421ff875fe9e  child-latest.apk
+c8b56d4626531953707b02940ffb2377ef0bbaa8799df5870110d1906de2b2e1  parent-latest.apk
+
+# --- Imza sertifikasi (tum surumler ayni anahtar) ---
+# DN: CN=FamilyGuard, OU=Mobile, O=FamilyGuard, L=Istanbul, ST=Istanbul, C=TR
+# Signer SHA-256: e1a1551805687eb1eebd21fb7575b623efdc1d4eea79119e7cb21116f937baf15
+# Signer SHA-1:   ae1cd40cba5bb1ce26343137fbb316f201cda068

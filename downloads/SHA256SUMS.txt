@@ -1,0 +1,17 @@
+# ============================================================
+#  FamilyGuard dagitim ozetleri (SHA-256)
+#  Kaynak: androforge.online  ·  destek: familyguard.destek@gmail.com
+#  Imza (tum surumler ayni): CN=FamilyGuard
+# ------------------------------------------------------------
+#  Linux/macOS dogrulama:
+#     sha256sum -c SHA256SUMS.txt
+#  Windows (PowerShell) tek dosya:
+#     Get-FileHash .\FamilyGuard_cocuk_v1.0.12_release.apk -Algorithm SHA256
+# ============================================================
+
+e8336967acc97ce8e4898e695570ae343edfad552cb00703f74b421ff875fe9e  FamilyGuard_cocuk_v1.0.12_release.apk
+c8b56d4626531953707b02940ffb2377ef0bbaa8799df5870110d1906de2b2e1  FamilyGuard_ebeveyn_v1.2.0_release.apk
+
+# --- Sabit isimli "guncel indirme" kopyalari (site butonlari bunlari gosterir) ---
+e8336967acc97ce8e4898e695570ae343edfad552cb00703f74b421ff875fe9e  child-latest.apk
+c8b56d4626531953707b02940ffb2377ef0bbaa8799df5870110d1906de2b2e1  parent-latest.apk
