@@ -63,4 +63,8 @@
       } finally { btn.disabled = false; btn.textContent = 'Gönder'; }
     });
   }
+  <div class="lb" id="lightbox" aria-hidden="true" role="dialog" aria-label="Ekran görüntüsü">
+  <button class="lb__close" data-lb-close aria-label="Kapat">✕</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
 })();
