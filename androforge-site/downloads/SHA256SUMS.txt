@@ -1,0 +1,14 @@
+# androforge.online — FamilyGuard APK SHA-256 özetleri
+# Doğrulama: Windows PowerShell -> Get-FileHash .\dosya.apk -Algorithm SHA256
+#            Linux/macOS      -> shasum -a 256 dosya.apk
+# Bu dosyadaki değerler, sitede yayınlanan imzalı APK'larla birebir eşleşmelidir.
+
+E8336967ACC97CE8E4898E695570AE343EDFAD552CB00703F74B421FF875FE9E  FamilyGuard_cocuk_v1.0.12_release.apk
+C8B56D4626531953707B02940FFB2377EF0BBAA8799DF5870110D1906DE2B2E1  FamilyGuard_ebeveyn_v1.2.0_release.apk
+
+# İmza sertifikası SHA-256 parmak izi (her iki APK aynı anahtarla imzalanmıştır):
+# e1a1551805687eb1eebd21fb7575b623efdc1d4eea79119e7cb21116f937baf15
+#
+# Her iki APK'nın imzası CN=FamilyGuard sertifikasıyla yapılmıştır.
+# Kurulumdan önce imzanın aynı olduğundan emin olun; üzerine güncelleme
+# kurulumları yalnızca aynı imza ile çalışır.
