@@ -1,5 +1,0 @@
-gh release create fg-v1.0.8 \
-  /teslim/FamilyGuard_cocuk_v1.0.8_release.apk \
-  /teslim/FamilyGuard_ebeveyn_v1.1.2_release.apk \
-  --title "FamilyGuard Çocuk v1.0.8 / Ebeveyn v1.1.2" \
-  --notes "Çocuk: otomatik kendini onarım, konum izni, eşleştirme düzeltmeleri."
